@@ -64,12 +64,14 @@ class _CardOddCustomState extends State<CardOddCustom> {
     }
 
     return InkResponse(
-      onLongPress: () => DialogConfirmDelete(
-        title: widget.titleTask,
-        onPressed: () {
-          taskProvider.deleteTask(keyTask: widget.idTask);
-          Navigator.of(context).pop(true);
-        },
+      onLongPress: () => showDialog(
+        context: context,
+        child: DialogConfirmDelete(
+            title: widget.titleTask,
+            onPressed: () {
+              taskProvider.deleteTask(keyTask: widget.idTask);
+              Navigator.of(context).pop(true);
+            }),
       ),
       child: Card(
         shape: RoundedRectangleBorder(
