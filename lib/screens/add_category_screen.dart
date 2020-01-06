@@ -39,7 +39,6 @@ class _AddCategoryScreenState extends State<AddCategoryScreen> {
     final mqWidth = MediaQuery.of(context).size.width;
     final categoryProvider =
         Provider.of<CategoryProvider>(context, listen: false);
-    final ThemeData theme = Theme.of(context);
 
     return Scaffold(
       appBar: AppBar(

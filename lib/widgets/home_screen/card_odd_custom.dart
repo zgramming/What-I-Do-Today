@@ -9,7 +9,6 @@ import 'package:provider/provider.dart';
 import 'package:path_provider/path_provider.dart' as pathProvider;
 import 'package:path/path.dart' as path;
 import 'package:voice_task_app/widgets/dialog_confirm_delete.dart';
-import 'package:showcaseview/showcase.dart';
 
 import 'package:voice_task_app/widgets/home_screen/modalbottomsheet_updateicon_custom.dart';
 
