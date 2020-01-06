@@ -67,11 +67,12 @@ class _CardOddCustomState extends State<CardOddCustom> {
       onLongPress: () => showDialog(
         context: context,
         child: DialogConfirmDelete(
-            title: widget.titleTask,
-            onPressed: () {
-              taskProvider.deleteTask(keyTask: widget.idTask);
-              Navigator.of(context).pop(true);
-            }),
+          title: widget.titleTask,
+          onPressed: () {
+            taskProvider.deleteTask(keyTask: widget.idTask);
+            Navigator.of(context).pop(true);
+          },
+        ),
       ),
       child: Card(
         shape: RoundedRectangleBorder(
