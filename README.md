@@ -1,6 +1,6 @@
-# voice_task_app
+# What I Do Today
 
-Flutter App with support Voice Command
+App for record your activity with your voice
 
 ## Getting Started
 
