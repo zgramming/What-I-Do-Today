@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="https://github.com/zgramming/What-I-Do-Today/blob/master/banner_github_widt.png" height="300">
+</p>
+
 # What I Do Today
 
 App for record your activity with your voice
